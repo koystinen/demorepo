@@ -1,0 +1,693 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AAFMAA - Serving Those Who Serve Since 1879</title>
+    <script src="https://cdn.tailwindcss.com/3.4.16"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.min.css"
+    />
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              primary: "#1e40af",
+              secondary: "#dc2626",
+            },
+            borderRadius: {
+              none: "0px",
+              sm: "4px",
+              DEFAULT: "8px",
+              md: "12px",
+              lg: "16px",
+              xl: "20px",
+              "2xl": "24px",
+              "3xl": "32px",
+              full: "9999px",
+              button: "8px",
+            },
+          },
+        },
+      };
+    </script>
+    <style>
+      :where([class^="ri-"])::before {
+          content: "\f3c2";
+      }
+    </style>
+  </head>
+  <body class="bg-white">
+    <nav class="bg-white shadow-sm border-b border-gray-100 sticky top-0 z-50">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex justify-between items-center h-16">
+          <div class="flex items-center">
+            <div class="font-['Pacifico'] text-2xl text-primary font-bold">
+              AAFMAA
+            </div>
+          </div>
+          <div class="hidden md:flex items-center space-x-8">
+            <a
+              href="#"
+              class="text-gray-700 hover:text-primary transition-colors"
+              >Life Insurance</a
+            >
+            <a
+              href="#"
+              class="text-gray-700 hover:text-primary transition-colors"
+              >Mortgages</a
+            >
+            <a
+              href="#"
+              class="text-gray-700 hover:text-primary transition-colors"
+              >Wealth Management</a
+            >
+            <a
+              href="#"
+              class="text-gray-700 hover:text-primary transition-colors"
+              >About</a
+            >
+            <button
+              class="bg-primary text-white px-6 py-2 !rounded-button hover:bg-blue-700 transition-colors whitespace-nowrap"
+            >
+              Member Login
+            </button>
+          </div>
+          <div class="md:hidden">
+            <button
+              class="text-gray-700 w-6 h-6 flex items-center justify-center"
+            >
+              <i class="ri-menu-line"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <section
+      class="relative min-h-screen flex items-center"
+      style="background-image: url('https://readdy.ai/api/search-image?query=diverse%20military%20family%20in%20uniform%20embracing%20outdoors%20with%20american%20flag%20in%20background%2C%20professional%20photography%2C%20warm%20natural%20lighting%2C%20authentic%20military%20personnel%2C%20patriotic%20atmosphere%2C%20family%20unity%2C%20clean%20modern%20composition%2C%20left%20side%20has%20space%20for%20text%20overlay&width=1920&height=1080&seq=hero001&orientation=landscape'); background-size: cover; background-position: center;"
+    >
+      <div
+        class="absolute inset-0 bg-gradient-to-r from-white/95 via-white/80 to-transparent"
+      ></div>
+      <div class="relative w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="max-w-2xl">
+          <h1
+            class="text-5xl lg:text-6xl font-bold text-gray-900 mb-6 leading-tight"
+          >
+            Serving Those Who Serve
+            <span class="text-primary">Since 1879</span>
+          </h1>
+          <p class="text-xl text-gray-700 mb-8 leading-relaxed">
+            Non-profit financial services built by military, for military
+            families. Protecting what matters most with life insurance,
+            mortgages, and wealth management.
+          </p>
+          <div class="flex flex-col sm:flex-row gap-4">
+            <button
+              class="bg-primary text-white px-8 py-4 !rounded-button text-lg font-semibold hover:bg-blue-700 transition-colors whitespace-nowrap"
+            >
+              Get Started Today
+            </button>
+            <button
+              class="border-2 border-primary text-primary px-8 py-4 !rounded-button text-lg font-semibold hover:bg-primary hover:text-white transition-colors whitespace-nowrap"
+            >
+              Learn More
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-gray-50 py-8">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
+          <div class="flex flex-col items-center">
+            <div
+              class="w-12 h-12 flex items-center justify-center bg-primary/10 rounded-full mb-3"
+            >
+              <i class="ri-calendar-line text-primary text-xl"></i>
+            </div>
+            <div class="text-2xl font-bold text-gray-900">Since 1879</div>
+            <div class="text-sm text-gray-600">Trusted Heritage</div>
+          </div>
+          <div class="flex flex-col items-center">
+            <div
+              class="w-12 h-12 flex items-center justify-center bg-primary/10 rounded-full mb-3"
+            >
+              <i class="ri-heart-line text-primary text-xl"></i>
+            </div>
+            <div class="text-2xl font-bold text-gray-900">Non-Profit</div>
+            <div class="text-sm text-gray-600">Member-Owned</div>
+          </div>
+          <div class="flex flex-col items-center">
+            <div
+              class="w-12 h-12 flex items-center justify-center bg-primary/10 rounded-full mb-3"
+            >
+              <i class="ri-group-line text-primary text-xl"></i>
+            </div>
+            <div class="text-2xl font-bold text-gray-900">500,000+</div>
+            <div class="text-sm text-gray-600">Members Served</div>
+          </div>
+          <div class="flex flex-col items-center">
+            <div
+              class="w-12 h-12 flex items-center justify-center bg-primary/10 rounded-full mb-3"
+            >
+              <i class="ri-shield-check-line text-primary text-xl"></i>
+            </div>
+            <div class="text-2xl font-bold text-gray-900">A+ Rated</div>
+            <div class="text-sm text-gray-600">Financial Strength</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-20 bg-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16">
+          <h2 class="text-4xl font-bold text-gray-900 mb-4">
+            Financial Services Built for Military Families
+          </h2>
+          <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+            From life insurance to home ownership and retirement planning, we
+            provide comprehensive financial solutions designed specifically for
+            military life.
+          </p>
+        </div>
+
+        <div class="grid md:grid-cols-3 gap-8">
+          <div
+            class="bg-white rounded-lg shadow-lg overflow-hidden border border-gray-100 hover:shadow-xl transition-shadow"
+          >
+            <div class="h-48 overflow-hidden">
+              <img
+                src="https://readdy.ai/api/search-image?query=military%20family%20with%20children%20smiling%20together%20at%20home%2C%20life%20insurance%20protection%20concept%2C%20warm%20family%20atmosphere%2C%20professional%20photography%2C%20diverse%20military%20personnel%2C%20secure%20home%20environment%2C%20clean%20modern%20interior&width=400&height=300&seq=service001&orientation=landscape"
+                alt="Life Insurance"
+                class="w-full h-full object-cover object-top"
+              />
+            </div>
+            <div class="p-6">
+              <div
+                class="w-12 h-12 flex items-center justify-center bg-primary/10 rounded-full mb-4"
+              >
+                <i class="ri-shield-user-line text-primary text-xl"></i>
+              </div>
+              <h3 class="text-2xl font-bold text-gray-900 mb-3">
+                Life Insurance
+              </h3>
+              <p class="text-gray-600 mb-4">
+                Protect your family's future with comprehensive life insurance
+                coverage designed for military families.
+              </p>
+              <ul class="text-sm text-gray-600 mb-6 space-y-2">
+                <li class="flex items-center">
+                  <i class="ri-check-line text-green-500 mr-2"></i>
+                  Term and permanent options
+                </li>
+                <li class="flex items-center">
+                  <i class="ri-check-line text-green-500 mr-2"></i>
+                  No war clause exclusions
+                </li>
+                <li class="flex items-center">
+                  <i class="ri-check-line text-green-500 mr-2"></i>
+                  Competitive military rates
+                </li>
+              </ul>
+              <button
+                class="w-full bg-primary text-white py-3 !rounded-button font-semibold hover:bg-blue-700 transition-colors whitespace-nowrap"
+              >
+                Get a Life Insurance Quote
+              </button>
+            </div>
+          </div>
+
+          <div
+            class="bg-white rounded-lg shadow-lg overflow-hidden border border-gray-100 hover:shadow-xl transition-shadow"
+          >
+            <div class="h-48 overflow-hidden">
+              <img
+                src="https://readdy.ai/api/search-image?query=military%20veteran%20couple%20looking%20at%20new%20home%20with%20keys%2C%20VA%20loan%20mortgage%20concept%2C%20happy%20homeowners%2C%20american%20dream%2C%20professional%20real%20estate%20photography%2C%20diverse%20military%20family%2C%20modern%20house%20exterior&width=400&height=300&seq=service002&orientation=landscape"
+                alt="VA Mortgages"
+                class="w-full h-full object-cover object-top"
+              />
+            </div>
+            <div class="p-6">
+              <div
+                class="w-12 h-12 flex items-center justify-center bg-primary/10 rounded-full mb-4"
+              >
+                <i class="ri-home-line text-primary text-xl"></i>
+              </div>
+              <h3 class="text-2xl font-bold text-gray-900 mb-3">
+                VA Mortgages
+              </h3>
+              <p class="text-gray-600 mb-4">
+                Make homeownership a reality with our specialized VA loan
+                programs and expert guidance.
+              </p>
+              <ul class="text-sm text-gray-600 mb-6 space-y-2">
+                <li class="flex items-center">
+                  <i class="ri-check-line text-green-500 mr-2"></i>
+                  No down payment required
+                </li>
+                <li class="flex items-center">
+                  <i class="ri-check-line text-green-500 mr-2"></i>
+                  Competitive interest rates
+                </li>
+                <li class="flex items-center">
+                  <i class="ri-check-line text-green-500 mr-2"></i>
+                  Military-friendly process
+                </li>
+              </ul>
+              <button
+                class="w-full bg-primary text-white py-3 !rounded-button font-semibold hover:bg-blue-700 transition-colors whitespace-nowrap"
+              >
+                Explore Mortgage Options
+              </button>
+            </div>
+          </div>
+
+          <div
+            class="bg-white rounded-lg shadow-lg overflow-hidden border border-gray-100 hover:shadow-xl transition-shadow"
+          >
+            <div class="h-48 overflow-hidden">
+              <img
+                src="https://readdy.ai/api/search-image?query=military%20financial%20advisor%20meeting%20with%20service%20member%20couple%2C%20wealth%20management%20consultation%2C%20professional%20office%20setting%2C%20retirement%20planning%20discussion%2C%20diverse%20military%20personnel%2C%20financial%20security%20concept&width=400&height=300&seq=service003&orientation=landscape"
+                alt="Wealth Management"
+                class="w-full h-full object-cover object-top"
+              />
+            </div>
+            <div class="p-6">
+              <div
+                class="w-12 h-12 flex items-center justify-center bg-primary/10 rounded-full mb-4"
+              >
+                <i class="ri-line-chart-line text-primary text-xl"></i>
+              </div>
+              <h3 class="text-2xl font-bold text-gray-900 mb-3">
+                Wealth Management
+              </h3>
+              <p class="text-gray-600 mb-4">
+                Build long-term financial security with personalized investment
+                and retirement planning strategies.
+              </p>
+              <ul class="text-sm text-gray-600 mb-6 space-y-2">
+                <li class="flex items-center">
+                  <i class="ri-check-line text-green-500 mr-2"></i>
+                  TSP optimization strategies
+                </li>
+                <li class="flex items-center">
+                  <i class="ri-check-line text-green-500 mr-2"></i>
+                  Military retirement planning
+                </li>
+                <li class="flex items-center">
+                  <i class="ri-check-line text-green-500 mr-2"></i>
+                  Tax-efficient investing
+                </li>
+              </ul>
+              <button
+                class="w-full bg-primary text-white py-3 !rounded-button font-semibold hover:bg-blue-700 transition-colors whitespace-nowrap"
+              >
+                Schedule a Financial Review
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-20 bg-gray-50">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid lg:grid-cols-2 gap-12 items-center">
+          <div>
+            <img
+              src="https://readdy.ai/api/search-image?query=diverse%20group%20of%20military%20service%20members%20from%20different%20branches%20standing%20together%20in%20uniform%2C%20professional%20military%20photography%2C%20patriotic%20background%2C%20unity%20and%20brotherhood%2C%20authentic%20military%20personnel%2C%20honor%20and%20service&width=600&height=500&seq=why001&orientation=portrait"
+              alt="Why Choose AAFMAA"
+              class="rounded-lg shadow-lg w-full"
+            />
+          </div>
+          <div>
+            <h2 class="text-4xl font-bold text-gray-900 mb-6">
+              Why Choose AAFMAA?
+            </h2>
+            <p class="text-xl text-gray-600 mb-8">
+              We're not just another financial services company. We're a
+              non-profit association built by military members, for military
+              families.
+            </p>
+
+            <div class="space-y-6">
+              <div class="flex items-start">
+                <div
+                  class="w-8 h-8 flex items-center justify-center bg-primary/10 rounded-full mr-4 mt-1"
+                >
+                  <i class="ri-heart-line text-primary"></i>
+                </div>
+                <div>
+                  <h3 class="text-lg font-semibold text-gray-900 mb-2">
+                    Members First Mission
+                  </h3>
+                  <p class="text-gray-600">
+                    No shareholders, just members. Every decision is made with
+                    your best interests in mind.
+                  </p>
+                </div>
+              </div>
+
+              <div class="flex items-start">
+                <div
+                  class="w-8 h-8 flex items-center justify-center bg-primary/10 rounded-full mr-4 mt-1"
+                >
+                  <i class="ri-military-line text-primary"></i>
+                </div>
+                <div>
+                  <h3 class="text-lg font-semibold text-gray-900 mb-2">
+                    Military Understanding
+                  </h3>
+                  <p class="text-gray-600">
+                    Our team understands military life, deployments, and the
+                    unique financial challenges you face.
+                  </p>
+                </div>
+              </div>
+
+              <div class="flex items-start">
+                <div
+                  class="w-8 h-8 flex items-center justify-center bg-primary/10 rounded-full mr-4 mt-1"
+                >
+                  <i class="ri-time-line text-primary"></i>
+                </div>
+                <div>
+                  <h3 class="text-lg font-semibold text-gray-900 mb-2">
+                    145+ Years of Trust
+                  </h3>
+                  <p class="text-gray-600">
+                    Since 1879, we've been serving military families through
+                    every challenge and milestone.
+                  </p>
+                </div>
+              </div>
+
+              <div class="flex items-start">
+                <div
+                  class="w-8 h-8 flex items-center justify-center bg-primary/10 rounded-full mr-4 mt-1"
+                >
+                  <i class="ri-shield-check-line text-primary"></i>
+                </div>
+                <div>
+                  <h3 class="text-lg font-semibold text-gray-900 mb-2">
+                    Financial Strength
+                  </h3>
+                  <p class="text-gray-600">
+                    A+ rated financial strength means your family's security is
+                    our top priority.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-20 bg-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16">
+          <h2 class="text-4xl font-bold text-gray-900 mb-4">
+            What Our Members Say
+          </h2>
+          <p class="text-xl text-gray-600">
+            Real stories from military families we're proud to serve
+          </p>
+        </div>
+
+        <div class="grid md:grid-cols-3 gap-8">
+          <div class="bg-white rounded-lg shadow-lg p-8 border border-gray-100">
+            <div class="flex items-center mb-4">
+              <img
+                src="https://readdy.ai/api/search-image?query=professional%20headshot%20of%20african%20american%20army%20sergeant%20in%20uniform%2C%20military%20portrait%20photography%2C%20confident%20smile%2C%20authentic%20military%20personnel%2C%20clean%20background&width=80&height=80&seq=testimonial001&orientation=squarish"
+                alt="Member"
+                class="w-12 h-12 rounded-full object-cover mr-4"
+              />
+              <div>
+                <div class="font-semibold text-gray-900">
+                  Sergeant Maria Rodriguez
+                </div>
+                <div class="text-sm text-gray-600">U.S. Army</div>
+              </div>
+            </div>
+            <div class="flex mb-4">
+              <i class="ri-star-fill text-yellow-400"></i>
+              <i class="ri-star-fill text-yellow-400"></i>
+              <i class="ri-star-fill text-yellow-400"></i>
+              <i class="ri-star-fill text-yellow-400"></i>
+              <i class="ri-star-fill text-yellow-400"></i>
+            </div>
+            <p class="text-gray-600 italic">
+              "AAFMAA helped us secure our first home with a VA loan. The
+              process was smooth, and they understood our military lifestyle
+              completely. Couldn't be happier with the service."
+            </p>
+          </div>
+
+          <div class="bg-white rounded-lg shadow-lg p-8 border border-gray-100">
+            <div class="flex items-center mb-4">
+              <img
+                src="https://readdy.ai/api/search-image?query=professional%20headshot%20of%20caucasian%20navy%20chief%20petty%20officer%20in%20uniform%2C%20military%20portrait%20photography%2C%20friendly%20expression%2C%20authentic%20naval%20personnel%2C%20clean%20background&width=80&height=80&seq=testimonial002&orientation=squarish"
+                alt="Member"
+                class="w-12 h-12 rounded-full object-cover mr-4"
+              />
+              <div>
+                <div class="font-semibold text-gray-900">
+                  Chief Petty Officer James Chen
+                </div>
+                <div class="text-sm text-gray-600">U.S. Navy</div>
+              </div>
+            </div>
+            <div class="flex mb-4">
+              <i class="ri-star-fill text-yellow-400"></i>
+              <i class="ri-star-fill text-yellow-400"></i>
+              <i class="ri-star-fill text-yellow-400"></i>
+              <i class="ri-star-fill text-yellow-400"></i>
+              <i class="ri-star-fill text-yellow-400"></i>
+            </div>
+            <p class="text-gray-600 italic">
+              "The life insurance coverage gave us peace of mind during
+              deployment. Knowing my family is protected no matter what happens
+              is invaluable. AAFMAA truly cares about military families."
+            </p>
+          </div>
+
+          <div class="bg-white rounded-lg shadow-lg p-8 border border-gray-100">
+            <div class="flex items-center mb-4">
+              <img
+                src="https://readdy.ai/api/search-image?query=professional%20headshot%20of%20hispanic%20air%20force%20technical%20sergeant%20in%20uniform%2C%20military%20portrait%20photography%2C%20warm%20smile%2C%20authentic%20air%20force%20personnel%2C%20clean%20background&width=80&height=80&seq=testimonial003&orientation=squarish"
+                alt="Member"
+                class="w-12 h-12 rounded-full object-cover mr-4"
+              />
+              <div>
+                <div class="font-semibold text-gray-900">
+                  Technical Sergeant Lisa Thompson
+                </div>
+                <div class="text-sm text-gray-600">U.S. Air Force</div>
+              </div>
+            </div>
+            <div class="flex mb-4">
+              <i class="ri-star-fill text-yellow-400"></i>
+              <i class="ri-star-fill text-yellow-400"></i>
+              <i class="ri-star-fill text-yellow-400"></i>
+              <i class="ri-star-fill text-yellow-400"></i>
+              <i class="ri-star-fill text-yellow-400"></i>
+            </div>
+            <p class="text-gray-600 italic">
+              "Their wealth management team helped me optimize my TSP and plan
+              for retirement. The advice was tailored specifically to military
+              benefits. Excellent service from people who get it."
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section
+      class="py-20 bg-primary text-white relative"
+      style="background-image: url('https://readdy.ai/api/search-image?query=american%20flag%20waving%20in%20wind%20with%20military%20silhouettes%20at%20sunset%2C%20patriotic%20background%2C%20honor%20and%20service%2C%20dramatic%20lighting%2C%20clean%20composition%20for%20text%20overlay&width=1920&height=600&seq=cta001&orientation=landscape'); background-size: cover; background-position: center;"
+    >
+      <div class="absolute inset-0 bg-primary/80"></div>
+      <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <h2 class="text-4xl font-bold mb-6">
+          Ready to Secure Your Family's Future?
+        </h2>
+        <p class="text-xl mb-12 max-w-3xl mx-auto opacity-90">
+          Join over 500,000 military families who trust AAFMAA with their
+          financial security. Get started with a personalized consultation
+          today.
+        </p>
+
+        <div class="grid md:grid-cols-3 gap-6 max-w-4xl mx-auto">
+          <button
+            class="bg-white text-primary px-8 py-4 !rounded-button text-lg font-semibold hover:bg-gray-100 transition-colors whitespace-nowrap"
+          >
+            Get a Life Insurance Quote
+          </button>
+          <button
+            class="bg-white text-primary px-8 py-4 !rounded-button text-lg font-semibold hover:bg-gray-100 transition-colors whitespace-nowrap"
+          >
+            Explore Mortgage Options
+          </button>
+          <button
+            class="bg-white text-primary px-8 py-4 !rounded-button text-lg font-semibold hover:bg-gray-100 transition-colors whitespace-nowrap"
+          >
+            Schedule a Financial Review
+          </button>
+        </div>
+
+        <div class="mt-8 text-center">
+          <p class="text-lg opacity-90">
+            Or call us at <span class="font-semibold">(800) 522-5221</span>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <footer class="bg-gray-900 text-white py-16">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid md:grid-cols-4 gap-8">
+          <div>
+            <div class="font-['Pacifico'] text-2xl text-white font-bold mb-4">
+              AAFMAA
+            </div>
+            <p class="text-gray-400 mb-4">
+              Serving military families since 1879 with trusted financial
+              services and unwavering commitment to your security.
+            </p>
+            <div class="flex space-x-4">
+              <a
+                href="#"
+                class="w-8 h-8 flex items-center justify-center bg-gray-800 rounded-full hover:bg-primary transition-colors"
+              >
+                <i class="ri-facebook-fill"></i>
+              </a>
+              <a
+                href="#"
+                class="w-8 h-8 flex items-center justify-center bg-gray-800 rounded-full hover:bg-primary transition-colors"
+              >
+                <i class="ri-twitter-fill"></i>
+              </a>
+              <a
+                href="#"
+                class="w-8 h-8 flex items-center justify-center bg-gray-800 rounded-full hover:bg-primary transition-colors"
+              >
+                <i class="ri-linkedin-fill"></i>
+              </a>
+            </div>
+          </div>
+
+          <div>
+            <h3 class="text-lg font-semibold mb-4">Services</h3>
+            <ul class="space-y-2 text-gray-400">
+              <li>
+                <a href="#" class="hover:text-white transition-colors"
+                  >Life Insurance</a
+                >
+              </li>
+              <li>
+                <a href="#" class="hover:text-white transition-colors"
+                  >VA Mortgages</a
+                >
+              </li>
+              <li>
+                <a href="#" class="hover:text-white transition-colors"
+                  >Wealth Management</a
+                >
+              </li>
+              <li>
+                <a href="#" class="hover:text-white transition-colors"
+                  >Financial Planning</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <h3 class="text-lg font-semibold mb-4">Resources</h3>
+            <ul class="space-y-2 text-gray-400">
+              <li>
+                <a href="#" class="hover:text-white transition-colors"
+                  >Military Benefits Guide</a
+                >
+              </li>
+              <li>
+                <a href="#" class="hover:text-white transition-colors"
+                  >Financial Calculators</a
+                >
+              </li>
+              <li>
+                <a href="#" class="hover:text-white transition-colors"
+                  >Educational Articles</a
+                >
+              </li>
+              <li>
+                <a href="#" class="hover:text-white transition-colors"
+                  >Member Portal</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <h3 class="text-lg font-semibold mb-4">Contact</h3>
+            <div class="space-y-2 text-gray-400">
+              <p class="flex items-center">
+                <i class="ri-phone-line mr-2"></i>
+                (800) 522-5221
+              </p>
+              <p class="flex items-center">
+                <i class="ri-mail-line mr-2"></i>
+                info@aafmaa.com
+              </p>
+              <p class="flex items-start">
+                <i class="ri-map-pin-line mr-2 mt-1"></i>
+                102 Sheridan Ave<br />
+                Fort Myer, VA 22211
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="border-t border-gray-800 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center"
+        >
+          <p class="text-gray-400 text-sm">
+            © 2024 American Armed Forces Mutual Aid Association. All rights
+            reserved.
+          </p>
+          <div class="flex space-x-6 mt-4 md:mt-0">
+            <a
+              href="#"
+              class="text-gray-400 hover:text-white text-sm transition-colors"
+              >Privacy Policy</a
+            >
+            <a
+              href="#"
+              class="text-gray-400 hover:text-white text-sm transition-colors"
+              >Terms of Service</a
+            >
+            <a
+              href="#"
+              class="text-gray-400 hover:text-white text-sm transition-colors"
+              >Accessibility</a
+            >
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
