@@ -47,13 +47,34 @@
    
   </head>
   <body class="bg-white">
-     <vapi-widget assistant-id="b4818b17-b7f0-4c5e-b9b2-d8e891a9e11c" public-key="44caa649-bfec-43b0-bcf6-3e9c2d0540e9"></vapi-widget>
+<vapi-widget
+  public-key="44caa649-bfec-43b0-bcf6-3e9c2d0540e9"
+  assistant-id="b4818b17-b7f0-4c5e-b9b2-d8e891a9e11c"
+  mode="chat"
+  theme="light"
+  base-bg-color="#ffffff"
+  accent-color="rgb(30 64 174)"
+  cta-button-color="#ffffff"
+  cta-button-text-color="#000000"
+  border-radius="medium"
+  size="full"
+  position="bottom-right"
+  title="Chat With Us 24/7"
+  start-button-text="Start"
+  end-button-text="End Call"
+  chat-first-message="Hello! I am the AAFMAA Digital Assistant. I can answer questions or help you schedule a call with a Member Specialist. How can I help you today?"
+  chat-placeholder="Ask a question or schedule a call..."
+  voice-show-transcript="true"
+  consent-required="true"
+  consent-title="Terms and conditions"
+  consent-content="By clicking "Agree," I consent to my conversation with the AAFMAA Digital Assistant being recorded and stored to ensure quality of service and to assist our Member Specialists. For details, please see our Privacy Policy."
+  consent-storage-key="vapi_widget_consent"
+></vapi-widget>
 
-      <script
-        src="https://unpkg.com/@vapi-ai/client-sdk-react/dist/embed/widget.umd.js"
-        async
-        type="text/javascript"
-      ></script>
+<script src="https://unpkg.com/@vapi-ai/client-sdk-react/dist/embed/widget.umd.js" async type="text/javascript"></script>
+
+
+    
     <nav class="bg-white shadow-sm border-b border-gray-100 sticky top-0 z-50">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="flex justify-between items-center h-16">
